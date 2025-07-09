@@ -1,0 +1,18 @@
+(.venv) PS C:\Users\Avish\OneDrive\Desktop\Avishek python> python "c:/Users/Avish/OneDrive/Desktop/Avishek python/trading_bot.py" `
+>>   --api_key f414a4a210251a39bf8e030990ebf43bd23b45ed90449e60729c363f694cbc53 `
+>>   --api_secret 5e09fee50e2c2b5d07c99bea8e156f99fec12630e97038d6bc18a4434d1cec1b `
+>>   --symbol BTCUSDT `
+>>   --side BUY `
+>>   --type MARKET `
+>>   --quantity 0.1
+{'orderId': 5230812955, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1b74ab4e62f6b6f182addb', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1752068190257}
+
+(.venv) PS C:\Users\Avish\OneDrive\Desktop\Avishek python> python "c:/Users/Avish/OneDrive/Desktop/Avishek python/trading_bot.py" `
+>>   --api_key f414a4a210251a39bf8e030990ebf43bd23b45ed90449e60729c363f694cbc53 `
+>>   --api_secret 5e09fee50e2c2b5d07c99bea8e156f99fec12630e97038d6bc18a4434d1cec1b `
+>>   --symbol BTCUSDT `
+>>   --side BUY `
+>>   --type LIMIT  `
+>>   --quantity 0.1 `
+>>   --price 50005
+{'orderId': 5230791950, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJbea60b6a88ca10d40b2f43', 'price': '50005.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1752068063183}
